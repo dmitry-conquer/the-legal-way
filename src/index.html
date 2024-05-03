@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="uk">
+  @@include('components/head.html', { 'title': 'Arganov O.A' })
+  <body class="font-['Open_Sans']">
+    <div class="relative flex min-h-screen flex-col overflow-hidden">
+      @@include('components/header.html', { })
+      <main>
+        <section class="relative bg-[#EEF9FF] bg-cover bg-center pb-[80px] pt-[66px] lg:py-[190px]" style="background-image: url(./img/hero-bg.webp)">
+          <div class="container relative z-10">
+            <div class="flex flex-col items-center">
+              <p class="mb-4 text-center text-base font-semibold text-[#CCA776] sm:text-base">Вітаємо на сайті юридичних послуг The Legal Way</p>
+              <h1 class="mb-6 text-center font-['Blacker'] text-[26px] font-bold !leading-tight text-white sm:text-[50px]">Послуги від професійних юристів.</h1>
+              <p class="mx-auto mb-[18px] max-w-[767px] text-center text-sm font-normal text-white sm:text-base">
+                Наша команда досвідчених юристів готова допомогти чоловікам призовного віку уникнути призову на військову службу та, за необхідності, легально перетнути кордон.
+              </p>
+              <p class="mx-auto mb-10 max-w-[537px] text-center text-sm font-bold text-white sm:text-base">Ми готові надати Вам індивідуальні консультації та допомогу у запобіганні мобілізації.</p>
+              <a href="#" class="flex items-center gap-x-2 border-2 border-[#CCA776] p-4 transition-colors hover:bg-[#CCA776]/10 sm:px-[18px] sm:py-5">
+                <span class="text-sm font-normal text-white sm:text-base">Зв'язатися в Telegram</span>
+                <svg class="size-5 text-[#CCA776] sm:size-6">
+                  <use href="./sprites/sprite.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-[#181D26] py-10">
+          <div class="container grid grid-cols-2 gap-y-5 max-lg:gap-x-5 lg:grid-cols-4 lg:space-x-[28px] lg:divide-x lg:[&>*:not(:first-child)]:pl-[28px]">
+            <div class="flex flex-col items-center gap-y-4 text-center">
+              <p class="font-['Blacker'] text-[50px] font-semibold !leading-none text-white sm:text-[78px]">8</p>
+              <p class="text-base font-bold text-gray-200 sm:text-lg">Років допомагаємо людям</p>
+            </div>
+            <div class="flex flex-col items-center gap-y-4 text-center">
+              <p class="font-['Blacker'] text-[50px] font-semibold !leading-none text-white sm:text-[78px]">200</p>
+              <p class="text-base font-bold text-gray-200 sm:text-lg">Консультацій на місяць</p>
+            </div>
+            <div class="flex flex-col items-center gap-y-4 text-center">
+              <p class="font-['Blacker'] text-[50px] font-semibold !leading-none text-white sm:text-[78px]">>300</p>
+              <p class="text-base font-bold text-gray-200 sm:text-lg">Успішних справ</p>
+            </div>
+            <div class="flex flex-col items-center gap-y-4 text-center">
+              <p class="font-['Blacker'] text-[50px] font-semibold !leading-none text-white sm:text-[78px]">99%</p>
+              <p class="text-base font-bold text-gray-200 sm:text-lg">Відсоток успішних справ</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="bg-white py-10 md:py-[80px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-16">
+              <p class="text-sm font-semibold text-[#CCA776] sm:text-base">Послуги для фізичних осіб</p>
+              <h2 class="font-['Blacker'] text-[26px] font-bold !leading-tight text-gray-900 sm:text-[50px]">Які послуги ми надаємо</h2>
+            </div>
+            <div class="grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex h-full flex-col items-center border border-[#181D26] px-3 py-6 sm:py-[50px]">
+                <div class="flex size-[90px] items-center justify-center rounded-full bg-[#181D26]">
+                  <img src="./img/i1.svg" alt="Індевідуальний підхід" />
+                </div>
+                <div class="mt-10 text-center">
+                  <h3 class="mb-5 text-base font-bold text-stone-600 sm:text-xl">Індевідуальний підхід</h3>
+                  <p class="text-sm font-normal text-zinc-800 sm:text-base">Ми підходимо до кожної ситуації індивідуально, готові надати консультацію та вирішити ваші юридичні питання.</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border border-[#181D26] px-3 py-6 sm:py-[50px]">
+                <div class="flex size-[90px] items-center justify-center rounded-full bg-[#181D26]">
+                  <img src="./img/i2.svg" alt="Індевідуальний підхід" />
+                </div>
+                <div class="mt-10 text-center">
+                  <h3 class="mb-5 text-base font-bold text-stone-600 sm:text-xl">Рішення для кожного</h3>
+                  <p class="text-sm font-normal text-zinc-800 sm:text-base">Ми допоможемо чоловікам призовного віку знайти рішення та надамо варіанти легального виїзду за кордон.</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border border-[#181D26] px-3 py-6 sm:py-[50px]">
+                <div class="flex size-[90px] items-center justify-center rounded-full bg-[#181D26]">
+                  <img src="./img/i3.svg" alt="Індевідуальний підхід" />
+                </div>
+                <div class="mt-10 text-center">
+                  <h3 class="mb-5 text-base font-bold text-stone-600 sm:text-xl">Подвійне громадянство</h3>
+                  <p class="text-sm font-normal text-zinc-800 sm:text-base">Ми готові допомогти особам з громадянством двох і більше країн у перетині кордону.</p>
+                </div>
+              </div>
+              <div class="flex h-full flex-col items-center border border-[#181D26] px-3 py-6 sm:py-[50px]">
+                <div class="flex size-[90px] items-center justify-center rounded-full bg-[#181D26]">
+                  <img src="./img/i4.svg" alt="Індевідуальний підхід" />
+                </div>
+                <div class="mt-10 text-center">
+                  <h3 class="mb-5 text-base font-bold text-stone-600 sm:text-xl">Прискоримо процес</h3>
+                  <p class="text-sm font-normal text-zinc-800 sm:text-base">Ми прискоримо процес виїзду за кордон у найшвидші терміни за допомогою наших юристів.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-[30px] flex justify-center sm:mt-10">
+              <a href="#" class="group flex items-center gap-x-2 border-2 border-[#CCA776] bg-[#CCA776] p-4 transition-colors hover:bg-white sm:px-[18px] sm:py-5">
+                <span class="text-sm font-normal text-white group-hover:text-[#CCA776] sm:text-base">Зв'язатися в Telegram</span>
+                <svg class="size-5 text-white group-hover:text-[#CCA776] sm:size-6">
+                  <use href="./sprites/sprite.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="bg-[#F5F6F8] py-10 md:py-[100px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[80px]">
+              <p class="text-sm font-semibold text-[#CCA776] sm:text-base">Про нас</p>
+              <h2 class="font-['Blacker'] text-[26px] font-bold !leading-tight text-gray-900 sm:text-[50px]">Ми знайдемо рішення для кожного!</h2>
+            </div>
+            <div class="flex items-center gap-x-[53px] gap-y-10 max-lg:flex-col lg:items-start">
+              <div class="flex flex-col items-start">
+                <p class="mb-6 text-base font-semibold !leading-loose text-gray-900 sm:mb-10 sm:text-[22px]">Допомогли понад 1000 українцям легально залишити територію України під час військових дій</p>
+                <p class="mb-7 text-base font-normal !leading-loose text-gray-900 sm:mb-[50px] sm:text-[22px]">
+                  З вересня 2014 року ми зібрали команду юристів, яка всіляко допомагає людям, які перебувають в Україні, у вирішенні юридичних питань пов'язаних з перетином кордону та еміграції через агресією Росії на території України.
+                </p>
+                <a href="#" class="group flex items-center gap-x-2 border-2 border-[#181D26] bg-[#181D26] p-4 transition-colors hover:bg-white sm:px-[18px] sm:py-5">
+                  <span class="text-sm font-normal text-white group-hover:text-[#181D26] sm:text-base">Зв'язатися в Telegram</span>
+                  <svg class="size-5 text-white group-hover:text-[#181D26] sm:size-6">
+                    <use href="./sprites/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </div>
+              <div class="relative shrink-0">
+                <div class="absolute -bottom-5 -right-5 w-full h-full border border-[#5F5F5F]"></div>
+                <img src="./img/img1.webp" alt="Ми знайдемо рішення для кожного!" class="w-full relative z-10"/>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="comments" class="relative py-[60px] md:py-[120px]">
+          <div class="container">
+            <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[80px]">
+              <p class="text-sm font-semibold text-[#CCA776] sm:text-base">Відгуки клієнтів</p>
+              <h2 class="font-['Blacker'] text-[26px] font-bold !leading-tight text-gray-900 sm:text-[50px]">Що про нас говорять наші клієнти</h2>
+            </div>
+            <div class="relative z-10 grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-[30px]">
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av2.webp" alt="Анатолий Р" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Василь С</h3>
+              </div>
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av1.webp" alt="Ігор Д" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Ігор Д</h3>
+              </div>
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av3.webp" alt="Анатолий Р" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Данило М</h3>
+              </div>
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av2.webp" alt="Анатолий Р" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Василь С</h3>
+              </div>
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av1.webp" alt="Ігор Д" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Ігор Д</h3>
+              </div>
+              <div class="flex flex-col border px-4 pb-[35px] pt-[25px]">
+                <div class="mb-[18px] flex justify-center">
+                  <img src="./img/av3.webp" alt="Анатолий Р" class="size-[126px] overflow-hidden rounded-full object-cover" />
+                </div>
+                <img src="./img/q.svg" class="mb-[30px] block size-8 object-contain" alt="Відгук" />
+                <p class="mb-[30px] text-base font-light !leading-snug text-typo-200 sm:text-lg">
+                  Після закінчення терміну робочої візи в Польщі, мені довелося повернутися на батьківщину, щоб оформити нову. Вже з першими днями сталися непередбачувані проблеми, та компанія, яка раніше допомагала мені, швидко вирішила усі питання.
+                </p>
+                <h3 class="font-['Blacker'] text-lg font-bold text-gray-900">- Данило М</h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="relative bg-[#F5F7F9] py-10 md:py-[80px]">
+          <img src="./img/dec.webp" alt="Контакти" class="absolute bottom-0 right-0" />
+          <div class="container relative z-30">
+            <div>
+              <div class="mb-10 flex flex-col items-center gap-y-5 text-center sm:mb-[80px]">
+                <p class="text-sm font-semibold text-[#CCA776] sm:text-base">Контакти</p>
+                <h2 class="font-['Blacker'] text-[26px] font-bold !leading-tight text-gray-900 sm:text-[50px]">Як нас знайти</h2>
+                <p class="mx-auto mb-5 max-w-[490px] text-sm font-normal text-gray-900 sm:text-base md:mb-10">Donec id turpis a odio sagittis gravida. Curabitur in hendrerit purus, nec tempus tellus.</p>
+                <div class="flex items-center gap-x-5 gap-y-3 max-md:flex-col">
+                  <a href="tel:(063)76-13-177" class="group flex items-center gap-x-2.5 border-stone-600 md:mr-[50px]">
+                    <svg class="size-5 text-[#CCA776] sm:size-6">
+                      <use href="./sprites/sprite.svg#icon-tel"></use>
+                    </svg>
+                    <p class="text-base font-semibold text-gray-900 transition-colors group-hover:text-[#CCA776] sm:text-xl">(063) 76-13-177</p>
+                  </a>
+                  <div href="#location" class="group flex items-center gap-x-2.5 lg:mr-auto">
+                    <svg class="size-6 text-[#CCA776]">
+                      <use href="./sprites/sprite.svg#icon-loc"></use>
+                    </svg>
+                    <p class="text-base font-semibold text-gray-900 sm:text-xl">Проспект. Олександра Поля 85</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- GMap start -->
+            <div class="mx-auto max-w-[937px]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.2513792435943!2d35.01777448113811!3d48.45170616577703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe31771e447bf%3A0xb18a972416bc991a!2z0L_RgNC-0YHQvy4g0JDQu9C10LrRgdCw0L3QtNGA0LAg0J_QvtC70Y8sIDg1LCDQlNC90LXQv9GALCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1714768459925!5m2!1sru!2sua"
+                width="100%"
+                height="410"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- End -->
+          </div>
+        </section>
+      </main>
+      @@include('components/footer.html', { })
+    </div>
+  </body>
+</html>
